@@ -1,0 +1,51 @@
+.login-page {
+  background-image: url('./pexels-dtanpt-1329711.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 80px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form {
+  text-align: center;
+}
+
+.login-form h2 {
+  margin-top: 0;
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.login-form input[type="text"], .login-form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+
+.login-form input[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-form input[type="submit"]:hover {
+  background-color: #3e8e41;
+}

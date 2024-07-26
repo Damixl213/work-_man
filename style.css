@@ -1,0 +1,132 @@
+body{
+  background:rgba(4, 4, 4, 0.978);
+ margin:0px;
+ padding: 2px 0px 15px 0px;
+
+}
+ul{
+width: 80%;
+margin: auto;
+overflow: hidden;
+padding: 0px;
+display:in;
+text-align: center;
+list-style-type: none;
+
+}
+#page1 a{
+  text-decoration: none;
+  display:inline-block ;
+  margin:10px ;
+  color: white;
+ text-align: center;
+ margin-bottom: 10px;
+ font-size: small;
+}
+a:hover{
+  color:rgba(255, 187, 0, 0.999);
+  scale: 1.3; 
+  text-align: center;
+  transition: 0.4s;
+}
+a:active {
+  cursor: progress ;
+  color: black;
+  
+}
+.dropdown a:hover{
+ scale:none;
+ transition:none;
+}
+.dropdown .dropdown-menu a:hover{
+  color: #0f0e0e
+}
+.btn{
+  background-color  :rgba(255, 187, 0, 0.999);
+  border-radius: 6px;
+  border-style: none;
+  font-size:smaller;
+  margin-top: 11px;
+  margin-left: 120px;
+  margin-bottom: 150px;
+}
+.btn:hover{
+  opacity: 10;
+  background-color: burlywood;
+} 
+.btn:active{
+  cursor: pointer;
+  scale: 1.4;
+  opacity: 0.4;
+  transition: 0.3s;
+}
+form{
+  width: 250px auto;
+    text-align: center;
+  justify-content: center;
+  background-position: cover;
+}
+.Log{
+  background: url(./good\ logo.png) fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  margin-top: 100px;
+  color:rgba(255, 187, 0, 0.999);
+  background-size: contain;
+  background-position: center;
+  background-color:#0f0e0e;
+
+
+}
+.Login{
+  padding:30px;
+    width: 200px;
+    margin-left: 190px;
+    margin:0 auto ;
+  background-color: rgb(3, 3, 3);
+  background-position: center;
+  background-size: contain;
+  margin-top: 45px;
+  padding-right: 65px;
+  
+}
+input{
+  width:249px ;
+  text-align: center;
+  background: transparent;
+  border: none;
+  border-bottom:2px solid whitesmoke ;
+  font-size:18px;
+  font-weight:bolder 200px;
+  padding:10px 0 ;
+  transition: 0.5s;
+  outline: none;
+  height:35px ;
+  color: lavenderblush;
+  background-attachment: fixed;
+  width: auto;
+}
+.Signup p{
+  color: whitesmoke;
+}
+.Signup a{
+  color: whitesmoke;
+  text-decoration: none;
+}
+.Signup a:hover{
+  color: rgba(255, 187, 0, 0.999);
+  background-color: #333 ;
+  border-radius: 3px;
+  font-size: large;
+  scale:1.1;
+}
+.login-form input[type="submit"] {
+   background-color:rgba(255, 187, 0, 0.999);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 90px;
+  margin-left: 180px;
+}
